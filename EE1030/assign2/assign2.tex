@@ -57,21 +57,29 @@
 \numberwithin{figure}{enumi}
 \renewcommand{\thetable}{\theenumi}
 
-\textbf{Question}\\
+\textbf{question}
 The fourth vertex $\vec{D}$ of a parallelogram ABCD whose three vertices are $\vec{A}(-2, 3),\vec{B}(6, 7)$ and $\vec{C}(8, 3)$ is
 \\
-\textbf{Solution}\\
-Given,
+\textbf{solution}
+\begin{table}[h!]    
+  \centering
+  \input{tables/table.tex}
+  \caption{Vertices}
+  \label{tab1.2.13.1}
+\end{table}
+ 
+To find the vertex D of a parallelogram:
+we know that, in a parallelogram,
 \begin{align}
-\vec{A}=\myvec{-2\\3}\\
-\vec{B}=\myvec{6\\7}\\
-\vec{C}=\myvec{8\\3}\\
+	D=A+C-B\\
+        D=\myvec{-2+8-6\\3+3-6}\\
+	D=\myvec{0\\-1}\\
 \end{align}
-To find the vertex D of a parallelogram,
-\begin{align}
-	\vec{D}=\vec{A}+\vec{C}-\vec{B}\\
-        \vec{D}=\myvec{-2+8-6\\3+3-6}\\
-	\vec{D}=\myvec{0\\-1}\\
-\end{align}
-therefore,the coordinates of the fourth vertex $\vec{D}$ are $\myvec{0\\-1}$\\
+\begin{figure}[h!]
+   \centering
+   \includegraphics[width=0.7\linewidth]{fig/Figure_1.png}
+   \caption{parallelogram graph}
+   \label{parallelogram graph}
+\end{figure}
+therefore,the coordinates of the fourth vertex D are $\myvec{0\\-1}$\\
 \end{document}
