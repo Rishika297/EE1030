@@ -2,7 +2,7 @@
 \let\negthickspace\undefined
 \documentclass[journal]{IEEEtran}
 \usepackage[a5paper, margin=10mm, onecolumn]{geometry}
-%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
 \usepackage{tfrupee} % Include tfrupee package
 
 \setlength{\headheight}{1cm} % Set the height of the header box
@@ -25,7 +25,7 @@
 \usepackage[breaklinks=true]{hyperref}
 \usepackage{tkz-euclide} 
 \usepackage{listings}
-% \usepackage{gvv}                                        
+\usepackage{gvv}                                        
 \def\inputGnumericTable{}                                 
 \usepackage[latin1]{inputenc}                                
 \usepackage{color}                                            
@@ -57,10 +57,10 @@
 \numberwithin{figure}{enumi}
 \renewcommand{\thetable}{\theenumi}
 
-\textbf{question}
+Question:
 The fourth vertex $\vec{D}$ of a parallelogram ABCD whose three vertices are $\vec{A}(-2, 3),\vec{B}(6, 7)$ and $\vec{C}(8, 3)$ is
 \\
-\textbf{solution}
+\solution
 \begin{table}[h!]    
   \centering
   \input{tables/table.tex}
@@ -68,18 +68,18 @@ The fourth vertex $\vec{D}$ of a parallelogram ABCD whose three vertices are $\v
   \label{tab1.2.13.1}
 \end{table}
  
-To find the vertex D of a parallelogram:
 we know that, in a parallelogram,
 \begin{align}
 	D=A+C-B\\
-        D=\myvec{-2+8-6\\3+3-6}\\
+        D=\myvec{-2+8-6\\3+3-7}\\
 	D=\myvec{0\\-1}\\
 \end{align}
 \begin{figure}[h!]
    \centering
    \includegraphics[width=0.7\linewidth]{fig/Figure_1.png}
-   \caption{parallelogram graph}
    \label{parallelogram graph}
 \end{figure}
-therefore,the coordinates of the fourth vertex D are $\myvec{0\\-1}$\\
+D=\myvec{-2+8-6\\3+3-7}\\
+$\implies$ to find the vertex D of the parallelogram: 
+        D=\myvec{0,-1}
 \end{document}
