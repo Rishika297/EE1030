@@ -33,7 +33,7 @@ def plot_parallelogram(vertices):
     plt.xlabel('X-axis')
     plt.ylabel('Y-axis')
     plt.grid(True)
-    plt.axis('equal')
+    plt.axis([-5, 9, -2, 8])
     plt.show()
 
 if __name__ == "__main__":
