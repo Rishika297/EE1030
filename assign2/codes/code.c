@@ -4,7 +4,7 @@ int main() {
     int x[] = {-2, 6, 8, 0};
     int y[] = {3, 7, 3, -1};
 
-    FILE *file = fopen("parallelogram_coordinates.txt", "w");
+    FILE *file = fopen("pc.txt", "w");
     if (file == NULL) {
         perror("Error opening file");
         return 1;
@@ -16,10 +16,9 @@ int main() {
     fprintf(file, "C(%d, %d)\n", x[2], y[2]);
     fprintf(file, "D(%d, %d)\n", x[3], y[3]);
 
-    // Close the file
     fclose(file);
 
-    printf("Coordinates written to parallelogram_coordinates.txt\n");
+    printf("Coordinates written to pc.txt\n");
 
     return 0;
 }

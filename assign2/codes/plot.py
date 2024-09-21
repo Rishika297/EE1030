@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 
-# Function to read vertices from the file
 def read_vertices_from_file(filename):
-    vertices = []
+    vertices=[]
     with open(filename, 'r') as file:
         for line in file:
             x, y = map(float, line.split())
