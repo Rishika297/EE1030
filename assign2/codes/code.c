@@ -11,10 +11,10 @@ int main() {
     }
 
     
-    fprintf(file, "A(%d, %d)\n", x[0], y[0]);
-    fprintf(file, "B(%d, %d)\n", x[1], y[1]);
-    fprintf(file, "C(%d, %d)\n", x[2], y[2]);
-    fprintf(file, "D(%d, %d)\n", x[3], y[3]);
+    fprintf(file, "%d %d\n", x[0], y[0]);
+    fprintf(file, "%d %d\n", x[1], y[1]);
+    fprintf(file, "%d %d\n", x[2], y[2]);
+    fprintf(file, "%d %d\n", x[3], y[3]);
 
     fclose(file);
 

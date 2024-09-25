@@ -37,7 +37,7 @@ def plot_parallelogram(vertices):
     plt.show()
 
 if __name__ == "__main__":
-    vertices_file = 'parallelogram_coordinates.txt'
+    vertices_file = 'data.txt'
     vertices = read_vertices(vertices_file)
     plot_parallelogram(vertices)
 
