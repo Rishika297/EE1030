@@ -1,0 +1,88 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\setlength{\parindent}{0pt}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{4-4.4-13}
+\author{AI24BTECH11020 - RISHIKA KOTHA}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\parindent 0px
+Question:
+Slope of a line which cuts off intercepts of equal length on the axes is\\
+a) -1\\
+b) -0\\
+c)  2\\
+d) $\sqrt{3}$
+\solution
+Given that the line cuts off intercepts of equal length on the axes, let's assume the intercepts are both a,a. The equation of the line can be written as:
+\\
+\begin{align}
+	     x/a+y/a &= 1\\
+	\implies x+y &= a\\
+	            y&=-x+a\\
+\therefore slope= -1
+\end{align}
+Hence, The correct option is -1.
+\begin{table}[h!]    
+  \centering
+  \input{tables/table.tex}
+  \caption{}
+  \label{tab10.5.3.9.1}
+\end{table}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figs/Fig1.png}
+	\caption{x+y=1}
+\end{figure}
+\end{document}
