@@ -42,7 +42,7 @@
 \bibliographystyle{IEEEtran}
 \vspace{3cm}
 
-\title{4-4.4-13}
+\title{7-7.2-19}
 \author{AI24BTECH11020 - RISHIKA KOTHA}
 % \maketitle
 % \newpage
@@ -65,23 +65,45 @@ b)$3x^2+3y^2+13x+3=0$\\
 c)$6x^2+6y^2-13x=0$\\
 d)$x^2+y^2+13x+3=0$\\
 \solution
-from the given information, the following equations can be formulated 
-\begin{align}
-	\norm{P}^2+2u^TP+f&=0  \\
-	u&=ke_2\\
-	\norm{u}^2-f&=r^2
-\end{align}
-\begin{align}
-	P=\myvec{2\\3} and r=13/6\tag{0.4} \\
-	\norm{P}^2+2ke_2^TP+\norm{u}^2&=r^2 \tag{0.5} \\
-	k^2+2ke_2^TP+\norm{P}^2-r^2 &=0 \tag{0.6} \\
-	k=-e_2^TP \pm \sqrt{(e_2^TP)^2+r^2-\norm{P}^2} \tag{0.7}
-\end{align}
-	\text{Substituting numerical values,}\\
-\begin{align}
-	k=13/6,-13/6 \tag{0.8}
-\end{align}
-since $k<0$, k=-13/6\\
+from the given information,
+\begin{align*}
+	x_1=\myvec{2\\3}, x_2=\myvec{0\\0},n=\myvec{1\\0},c=0 \tag{0.1}
+\end{align*}
+\begin{align*}
+	\myvec{4 & 6 & 1 \\
+	       0 & 0 & 1 \\
+	       -1 & 0 & 0}
+	       \myvec{u\\f}=\myvec{-13\\0\\0}\tag{0.2}
+\end{align*}
+The augmented matrix is expressed as
+\begin{align*}
+	\myvec{4 & 6 & 1 & \vrule & -13\\
+         0 &  0 & 1 & \vrule & 0\\
+	 -1 &  0 & 0 & \vrule & 0} \tag{0.3}
+\end{align*}
+\begin{align*}
+	\xleftrightarrow[]{R_3 \rightarrow 4R_3+R_1}
+	 \myvec{4 & 6 & 1 & \vrule & -13\\
+         0 &  0 & 1 & \vrule & 0\\
+         0 &  6 & 1 & \vrule & -13} 
+	 \xleftrightarrow[]{R_1\rightarrow R_1-R_3}
+	 \myvec{4 & 0 & 0 & \vrule & 0\\
+	 0 & 0 & 1 & \vrule & 0\\
+	 0 & 6 & 1 &\vrule & -13}\\
+	 \xleftrightarrow[]{R_2\rightarrow R_2-R_3}
+	 \myvec{4 & 0 & 0 &\vrule & 0\\
+	 0 & -6 & 0 & \vrule & 13 \\
+	 0 & 6 & 1 & \vrule & -13}
+	 \xleftrightarrow[]{R_3\rightarrow R_3+R_2}
+	 \myvec{4 & 0 & 0 &\vrule & 0\\
+	 0 & -6 & 0 & \vrule & 13 \\
+	 0 & 0 & 1 & \vrule & 0}\\
+	 \xleftrightarrow[]{R_1\rightarrow R_1/4, R_2 \rightarrow R_2/-6}
+	 \myvec{1 & 0 & 0 &\vrule & 0\\
+         0 & 1 & 0 & \vrule & -13/6 \\
+         0 & 0 & 1 & \vrule & 0}\\
+	 so u=\myvec{0 \\ -13/6},f=0 \tag{0.4}
+\end{align*}
 $\therefore$ the equation of the circle is $3x^2+3y^2-13y=0$.
 \begin{table}[h!]    
   \centering
