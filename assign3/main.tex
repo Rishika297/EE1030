@@ -58,31 +58,38 @@
 \numberwithin{figure}{enumi}
 \renewcommand{\thetable}{\theenumi}
 \parindent 0px
-Question:
-Slope of a line which cuts off intercepts of equal length on the axes is\\
-a) -1\\
-b) -0\\
-c)  2\\
-d) $\sqrt{3}$\\
-\solution
-Given that the line cuts off intercepts of equal length on the axes, let's assume the intercepts are both a,a. The equation of the line can be written as:
+Question:Equation of the circle with centre on the Y axis and passing through the origin and the point (2, 3) is
 \\
+a)$3x^2+3y^2-13y=0$\\
+b)$3x^2+3y^2+13x+3=0$\\
+c)$6x^2+6y^2-13x=0$\\
+d)$x^2+y^2+13x+3=0$\\
+\solution
+from the given information, the following equations can be formulated 
 \begin{align}
-	     x/a+y/a &= 1\\
-	\implies x+y &= a\\
-	            y&=-x+a\\
-\therefore slope= -1
+	\norm{P}^2+2u^TP+f&=0  \\
+	u&=ke_2\\
+	\norm{u}^2-f&=r^2
 \end{align}
-Hence, The correct option is -1.
+\begin{align}
+	P=\myvec{2\\3} and r=13/6\tag{0.4} \\
+	\norm{P}^2+2ke_2^TP+\norm{u}^2&=r^2 \tag{0.5} \\
+	k^2+2ke_2^TP+\norm{P}^2-r^2 &=0 \tag{0.6} \\
+	k=-e_2^TP \pm \sqrt{(e_2^TP)^2+r^2-\norm{P}^2} \tag{0.7}
+\end{align}
+	\text{Substituting numerical values,}\\
+\begin{align}
+	k=13/6,-13/6 \tag{0.8}
+\end{align}
+since $k<0$, k=-13/6\\
+$\therefore$ the equation of the circle is $3x^2+3y^2-13y=0$.
 \begin{table}[h!]    
   \centering
   \input{tables/table.tex}
-  \caption{}
-  \label{tab10.5.3.9.1}
+	\label{7-7.2-19}
 \end{table}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.7\linewidth]{figs/Fig1.png}
-	\caption{x+y=1}
 \end{figure}
 \end{document}
