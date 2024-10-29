@@ -1,0 +1,166 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage{multicol}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{circuitikz}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\renewcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+% Marks the beginning of the document
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{ae-$2017$-$1$ to $13$}
+\author{AI24BTECH11020 - Rishika}
+\maketitle
+\bigskip
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[start=1]
+\item Given the vectors $\vec{v_1}=\hat{i}+3\hat{j};\vec{v_2}=2\hat{i}-4\hat{j}+3\hat{k},$ the vector $\vec{v_3}$ that is perpendicular to both $\vec{v_1}$ and $\vec{v_2}$ is given by:
+		\begin{enumerate}
+	\item $\vec{v_3}=\vec{v_1}-\brak{\vec{v_1}\cdot\vec{v_2}}\frac{\vec{v_2}}{\norm{\vec{v_2}}}$
+	\item $\vec{v_3}=\hat{k}$
+	\item $\vec{v_3}=\vec{v_2}-\brak{\vec{v_1}\cdot\vec{v_2}}\frac{\vec{v_1}}{\norm{\vec{v_1}}}$
+	\item $\vec{v_3}=\frac{\vec{v_1}\times\vec{v_2}}{\norm{\vec{v_1}\times\vec{v_2}}}$
+		\end{enumerate}
+\item The value of the integral $I=\int_c\brak{\brak{x-y}dx+x^2dy}$, with $C$ the boundary of the square $0\leq x\leq 2;0\leq y\leq 2,$ is \underline{\hspace{2cm}}
+
+\item Let $\vec{v\brak{t}}$ be a unit vector that is a function of the parameter $t$. Then $\vec{v}\cdot\frac{d\vec{v}}{dt}=$ \underline{\hspace{2cm}}
+
+\item The eigenvalues $\lambda_n$ and eigenfunctions $u_n\brak{x}$ of the sturm-Liouville problem $$\frac{d^2y}{dx^2}+k^2\lambda y=0, 0<x<1; y\brak{0}=0,y\brak{1}=0$$\\
+		are given by:
+ \begin{enumerate}
+	 \item $\lambda_n=n^2\pi^2;u_n\brak{x}=\sin\lambda_nx,   n=0,\pm1,\pm2,\cdots,\infty$
+	 \item $\lambda_n=\frac{n^2\pi^2}{k^2};u_n\brak{x}=\sin kn\pi x,   n=0,\pm1,\pm2,\cdots,\infty$
+	 \item $\lambda_n=\frac{n^2\pi^2}{k^2};u_n\brak{x}=\sin n\pi x,   n=0,\pm1,\pm2,\cdots,\infty$
+	 \item $\lambda_n=n^2\pi^2;u_n\brak{x}=\sin n\pi x,   n=0,\pm1,\pm2,\cdots,\infty$
+ \end{enumerate}
+
+\item $3$-point Gaussian integration formula is given by:
+	$\int_{-1}^{1}f\brak{x}dx \approx \Sigma_{j=1}^{3} A_jf\brak{x_j}$ with $x_1=0,x_2=-x_3=-\sqrt{\frac{3}{5}};A_1=\frac{8}{9},A_2=A_3=\frac{5}{9}.$
+		This formula exactly integrates
+		\begin{enumerate}
+			\item $f\brak{x}=5-x^7$
+			\item $f\brak{x}=2+3x+6x^4$
+			\item $f\brak{x}=13+6x^3+x^6$
+			\item $f\brak{x}=e^{-x^2}$
+		\end{enumerate}
+
+\item Which one of the following statements is NOT true
+	\begin{enumerate}
+        \item The pitching moment of any airfoil at any angle of attack is always zero at the center of pressure
+        \item The pitching moment of any airfoil at any angle of attack is always zero at the aerodynamic center
+        \item The center of pressure and aerodynamic center coincide for a symmetric airfoil
+        \item The pitching moment about the aerodynamic center,for any airfoil, does not vary with angle of attack
+	\end{enumerate}
+
+\item Which one of the following statements is NOT true
+	\begin{enumerate}
+		\item Compared to a laminar boundary layer, a turbulent boundary layer is more desirable on a wing operating at large angle of attack
+		\item The skin friction drag for a turbulent boundary layer is larger than that for a laminar boundary layer
+		\item The location of transition from laminar to turbulent boundary layer depends only on the operating Reynolds number
+		\item A seperated flow does not necessarily lead to a turbulent boundary layer
+	\end{enumerate}
+\item A De Laval nozzel is to be designed for an exit Mach number of $1.5$. The reservoir conditions are given as $P_{\circ}=1 atm(gage),T_{\circ}=20^{\degree}C,\gamma=1.4.$ Assuming shock free flow in the nozzle, the exit absolute pressure(in atm) is \underline{\hspace{2cm}} (in three decimal places)
+
+\item Consider a steady one dimensional flow of a perfect gas with heat transfer in a duct. The T-s diagram (shown below) shows both the static and the stagnation conditions at two locations, A and B,in the duct. $A_t$ and $B_t$ denote stagnation conditions for states $A$ and $B$, respectively. It is known that $\brak{\Delta T}_A=\brak{\Delta T}_B. M_A$ and $M_B$ are the Mach numbers of the flow at locations $A$ and $B$.\\
+	\begin{center}
+\begin{tikzpicture}
+\draw[->] (0,0)--(0,4.5);\node at (0,5){T};
+\draw[->] (0,0)--(6,0);\node at (6.2,0){S};
+\draw[dotted] (0,4)--(4.5,4)--(4.5,3)--(0,3);
+\draw[dotted] (0,2)--(1.5,2)--(1.5,1)--(0,1);
+\draw(1,0.9)parabola(5.2,4);
+\node at (1.5,0.6){$A$};
+\node at (4.7,2.8){$B$};
+\node at (1.5,2.2){$A_t$};
+\node at (4.7,4.2){$B_t$};
+\draw[<->](-0.2,3)--(-0.2,4);
+\draw[<->](-0.2,1)--(-0.2,2);
+\fill[black] (1.5,1) circle (2pt);
+\fill[black] (4.5,3) circle (2pt);
+\draw (3.4,1.7)--(3.5,2)--(3.2,1.9);
+\node at (-0.8,3.5){$(\Delta T)_B$};
+\node at (-0.8,1.5){$(\Delta T)_A$};
+\end{tikzpicture}
+\end{center}
+Which of the following statements is true about the flow.
+\begin{enumerate}
+	\item Flow is subsonic and $M_A<M_B$
+	\item Flow is supersonic and $M_A>M_B$
+	\item Flow is subsonic and $M_A>M_B$
+	\item Flow is supersonic and $M_A<M_B$
+\end{enumerate}
+
+\item To ensure only the longitudinal static stability (and not the condition for equilibrium) of a low speed aircraft, the aircraft components must be designed to satisfy which one of the following conditions:
+	\begin{enumerate}
+		\item $\frac{\partial C_m}{\partial \alpha}<0$ and $C_{m0}>0$
+		\item $\frac{\partial C_m}{\partial \alpha}<0$ 
+		\item $\frac{\partial C_m}{\partial {C_L}}<0$ and $C_{m0}<0$
+		\item $\frac{\partial C_m}{\partial {C_L}}=0.0$
+	\end{enumerate}
+
+\item Which of the following statement(s) is/are true about the shear centre of a cross-section:\\
+	P: It is that point in the cross-section through which shear loads produce no twisting.\\
+	Q: This point is also the centre of twist of sections subjected to pure torsion.\\
+	R: The normal stress at this point is always zero.\\
+	\begin{enumerate}
+		\item $P,Q$ and $R$
+		\item $P$ only
+		\item $P$ and $Q$ only
+		\item $P$ and $R$ only
+	\end{enumerate}
+
+\item Let $\overline{N_m}$ and $\overline{N_0}$ be respectively the non-dimensional locations of the stick-fixed maneuver point and stick-fixed neutral point of a low speed convectional aircraft. These distances are measured with respect to the nose of the fuselage. The numerical value of $\overline{N_m}-\overline{N_0}$
+	\begin{enumerate}
+		\item will always be negative
+		\item will always be positive
+		\item will always be zero
+		\item can have any value depending on the location of the center of gravity of the aircraft
+	\end{enumerate}
+\end{enumerate}
+\end{document}
+
