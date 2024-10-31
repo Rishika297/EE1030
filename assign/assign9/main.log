@@ -1407,29 +1407,27 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+)
+! Undefined control sequence.
+l.74 ...{x}=\sin\lambda_nx,   n=0,\pm1,\pm2,\codts
+                                                  ,\infty$
+? 
+! Emergency stop.
+l.74 ...{x}=\sin\lambda_nx,   n=0,\pm1,\pm2,\codts
+                                                  ,\infty$
+End of file on the terminal!
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--151
-
- []
-
-[2] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 43483 strings out of 478287
- 1005839 string characters out of 5849290
- 1514618 words of memory out of 5000000
- 60921 multiletter control sequences out of 15000+600000
- 538322 words of font info for 170 fonts, out of 8000000 for 9000
+ 43346 strings out of 478287
+ 1003820 string characters out of 5849290
+ 1488618 words of memory out of 5000000
+ 60861 multiletter control sequences out of 15000+600000
+ 523246 words of font info for 147 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,96p,474b,786s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+ 101i,4n,96p,408b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
