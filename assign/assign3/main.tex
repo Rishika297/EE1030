@@ -72,18 +72,18 @@ from the given information,
 \begin{align*}
 	\myvec{4 & 6 & 1 \\
 	       0 & 0 & 1 \\
-	       -1 & 0 & 0}
+	       1 & 0 & 0}
 	       \myvec{u\\f}=\myvec{-13\\0\\0}\tag{0.2}
 \end{align*}
 The augmented matrix is expressed as
 \begin{align*}
 	\myvec{4 & 6 & 1 & \vrule & -13\\
          0 &  0 & 1 & \vrule & 0\\
-	 -1 &  0 & 0 & \vrule & 0} \tag{0.3}
+	 1 &  0 & 0 & \vrule & 0} \tag{0.3}
 \end{align*}
 performing sequences of row operations to transform into Echelon form
 \begin{align*}
-	\xleftrightarrow[]{R_3 \rightarrow 4R_3+R_1}
+	\xleftrightarrow[]{R_3 \rightarrow R_1-4R_3}
 	 \myvec{4 & 6 & 1 & \vrule & -13\\
          0 &  0 & 1 & \vrule & 0\\
          0 &  6 & 1 & \vrule & -13} 

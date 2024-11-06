@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.7)  4 NOV 2024 21:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.7)  6 NOV 2024 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -937,32 +937,7 @@ thkerncmss.
 )
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.30 \end{frame}
-                
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.30 \end{frame}
-                
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.30 \end{frame}
-                
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.30 \end{frame}
-                
-? 
-[2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] (./tables/table.tex) [3
 
@@ -987,87 +962,30 @@ Overfull \vbox (18.53493pt too high) detected at line 99
 [6
 
  <./figs/Fig1.png>]
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   i
-l.125 \end{frame}
-                 
-? 
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   i
-l.125 \end{frame}
-                 
-? 
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   i
-l.125 \end{frame}
-                 
-? 
-! You can't use `macro parameter character #' in internal vertical mode.
-\beamer@doifinframe ...ks} \frametitle {C-Code} ##
-                                                  include <stdio.h> int main...
-l.125 \end{frame}
-                 
-? 
-! Misplaced alignment tab character &.
-\beamer@doifinframe ... 3.0f} }; float *center = &
-                                                  centerX; float *radiusPtr ...
-l.125 \end{frame}
-                 
-? 
-! Misplaced alignment tab character &.
-\beamer@doifinframe ...nterX; float *radiusPtr = &
-                                                  radius; float (*pointsPtr)...
-l.125 \end{frame}
-                 
-? 
-! Undefined control sequence.
-\beamer@doifinframe ...o data.txt successfully.\n 
-                                                  "); return 0; } \par \end ...
-l.125 \end{frame}
-                 
-? 
-[7
+<figs/Fig2.png, id=200, 767.86874pt x 526.96875pt>
+File: figs/Fig2.png Graphic file (type png)
+<use figs/Fig2.png>
+Package pdftex.def Info: figs/Fig2.png  used on input line 108.
+(pdftex.def)             Requested size: 239.60567pt x 164.4361pt.
+ [7
 
-]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.167 \end{frame}
-                 
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.167 \end{frame}
-                 
-? 
+ <./figs/Fig2.png>]
+<figs/Fig3.png, id=228, 763.85374pt x 406.51875pt>
+File: figs/Fig3.png Graphic file (type png)
+<use figs/Fig3.png>
+Package pdftex.def Info: figs/Fig3.png  used on input line 116.
+(pdftex.def)             Requested size: 239.60567pt x 127.51442pt.
+ [8
 
-Overfull \hbox (228.2636pt too wide) in paragraph at lines 167--167
-\OT1/cmss/m/n/10.95 [\OT1/mathkerncmss/m/sl/10.95 tuple\OT1/cmss/m/n/10.95 (\OT
-1/mathkerncmss/m/sl/10.95 map\OT1/cmss/m/n/10.95 (\OT1/mathkerncmss/m/sl/10.95 
-^^Moat\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 p\OML/cmm/m/it/10.95 :
-\OT1/mathkerncmss/m/sl/10.95 strip\OT1/cmss/m/n/10.95 ()\OML/cmm/m/it/10.95 :\O
-T1/mathkerncmss/m/sl/10.95 strip\OT1/cmss/m/n/10.95 ([]()[])\OML/cmm/m/it/10.95
- :\OT1/mathkerncmss/m/sl/10.95 split\OT1/cmss/m/n/10.95 ([]\OML/cmm/m/it/10.95 
-;[] \OT1/cmss/m/n/10.95 )))\OT1/mathkerncmss/m/sl/10.95 forpinpoints[]ine\OML/c
-mm/m/it/10.95 :\OT1/mathkerncmss/m/sl/10.95 split\OT1/cmss/m/n/10.95 ([])\OML/c
-mm/m/it/10.95 ; \OT1/cmss/m/n/10.95 ([])]\OT1/mathkerncmss/m/sl/10.95 returncen
-ter\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 radius\OML/cmm/m/it/10.95
- ; \OT1/mathkerncmss/m/sl/10.95 pointscenter\OML/cmm/m/it/10.95 ; \OT1/mathkern
-cmss/m/sl/10.95 radius\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 points
- \OT1/cmss/m/n/10.95 = 
- []
+ <./figs/Fig3.png>]
+<figs/Fig4.png, id=256, 893.3375pt x 709.65125pt>
+File: figs/Fig4.png Graphic file (type png)
+<use figs/Fig4.png>
+Package pdftex.def Info: figs/Fig4.png  used on input line 124.
+(pdftex.def)             Requested size: 239.60567pt x 190.33064pt.
+ [9
 
-
-Overfull \vbox (85.46704pt too high) detected at line 167
- []
-
-[8
-
-]
+ <./figs/Fig4.png>]
 \tf@nav=\write6
 \openout6 = `g_4.nav'.
 
@@ -1082,27 +1000,25 @@ Package rerunfilecheck Info: File `g_4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23408 strings out of 478287
- 451699 string characters out of 5849290
+ 23430 strings out of 478287
+ 452064 string characters out of 5849290
  716261 words of memory out of 5000000
- 41099 multiletter control sequences out of 15000+600000
+ 41116 multiletter control sequences out of 15000+600000
  477349 words of font info for 57 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 128i,21n,122p,400b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,21n,122p,400b,641s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msam10.pfb>
-Output written on g_4.pdf (8 pages, 164076 bytes).
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb>
+Output written on g_4.pdf (9 pages, 370038 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 18 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
